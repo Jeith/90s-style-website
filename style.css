@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+body{
+    background-color: #F6CA37;
+}
+
+header{
+    background-color: #ED8032;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 50px;
+    vertical-align: middle;
+    color: white;
+    position: absolute;
+}
+
+h1{
+    transform: rotate(-20deg);
+    margin-top: 28%;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.nav{
+    background-color: black;
+    display: inline-block;
+    height: 40px;
+    width: 70%;
+    margin-left: 280px;
+    margin-top: 200px;
+    transform: skew(-30deg);
+    vertical-align: middle;
+}
+
+.inner{
+    transform: skew(30deg);
+    margin-top: 9px;
+}
+
+.inner a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 50%;
+    margin-left: 13%;
+}
+a:hover{
+    color: #F6CA37;
+}
+
+.aboutme{
+    margin-top: 50px;
+    margin-left: 45%;
+    width: 131px;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sum{
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 70%;
+}
+
+.sum p{
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px
+}
+p span{
+    background-color: black;
+    margin-top: 50px;
+}
+footer{
+    margin-left: 40.5%;
+}
+footer a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.extraborder{
+    margin-top: 60px;
+    padding: 10px;
+    border: 10px solid #6ACDB1;
+    border-radius: 50%;
+}
+
+#indexphoto{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 90%;
+    border: 10px solid #E63C2F;
+}
+
+.interests{
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 35%;
+}
+
+.interests p{
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.interests ul{
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+.mycat{
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 35%;
+}
+
+.mycat p{
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.funfacts{
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 35%;
+}
+
+.funfacts p{
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.hobbies{
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 35%;
+}
+
+.hobbies p{
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
