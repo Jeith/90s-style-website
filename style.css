@@ -156,7 +156,7 @@ footer a{
     margin-top: 80px;
     height: 180px;
     border: 10px solid #6ACDB1;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 #verm{
@@ -232,7 +232,7 @@ footer a{
     width: 35%;
 }
 
-.funfacts li{
+.funfacts ul{
     vertical-align: center;
     color: white;
     font-family: 'Noto Sans', sans-serif;
@@ -264,7 +264,7 @@ footer a{
 #moog{
     position: absolute;
     margin-left: 60%;
-    margin-top: 20px;
+    margin-top: 50px;
     height: 180px;
     border: 10px solid #E63C2F;
     border-radius: 50%;
@@ -277,11 +277,51 @@ footer a{
     border: 10px solid #E63C2F;
     border-radius: 50%;   
 }
-#theclass{
+#percy{
     position: absolute;
     margin-left: 50%;
-    margin-top: 2px;
+    margin-top: -79px;
     height: 300px;
     border: 10px solid #E63C2F;
     border-radius: 10%;
+}
+
+#funfactdiv{
+    position: absolute;
+    background-color: black;
+    margin-left: 12%;
+    margin-top: -35px;
+    width: 5%;
+    height: 165px;
+    transform: skewY(45deg);
+    z-index: 0;
+}
+
+#topdiv{
+    position: absolute;
+    background-color: black;
+    margin-left: 15.3%;
+    margin-top: -90px;
+    width: 400px;
+    height: 80px;
+    transform: skewX(45deg);
+    z-index: 0;
+}
+
+.funaboutme{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 45%;
+    width: 131px;
+}
+
+#funfactsbord{
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 35%;
+    border: 2px solid black;
+    z-index: 0;
+}
+ul, li{
+    z-index: 10;
 }
