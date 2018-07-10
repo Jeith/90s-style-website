@@ -61,6 +61,12 @@ a:hover{
     width: 131px;
 }
 
+.cat{
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 300px;
+}
+
 h2{
     background-color: black;
     color: white;
@@ -85,8 +91,14 @@ p span{
     background-color: black;
     margin-top: 50px;
 }
+
+span{
+    background-color: black;
+}
+
 footer{
     margin-left: 40.5%;
+    margin-top: 60px;
 }
 footer a{
     text-align: center;
@@ -129,6 +141,76 @@ footer a{
     font-size: 20px;
     background-color: black;
 }
+#globe{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 20px;
+    height: 180px;
+    border: 10px solid #E63C2F;
+    border-radius: 50%;
+}
+
+#rushen{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 80px;
+    height: 180px;
+    border: 10px solid #6ACDB1;
+    border-radius: 50%;
+}
+
+#verm{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 80px;
+    height: 180px;
+    border: 10px solid #385CAE;
+    border-radius: 50%;
+}
+
+.music{
+    margin-left: 15%;
+    margin-top: 80px;
+    width: 35%;
+}
+
+.music p{
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.music ul{
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+.food{
+    margin-left: 15%;
+    margin-top: 80px;
+    width: 35%;
+}
+
+.food p{
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.food ul{
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
 
 .mycat{
     margin-left: 15%;
@@ -150,8 +232,7 @@ footer a{
     width: 35%;
 }
 
-.funfacts p{
-    text-align: center;
+.funfacts li{
     vertical-align: center;
     color: white;
     font-family: 'Noto Sans', sans-serif;
@@ -170,4 +251,37 @@ footer a{
     color: white;
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
+}
+
+.hobbies ul{
+    vertical-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+#moog{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 20px;
+    height: 180px;
+    border: 10px solid #E63C2F;
+    border-radius: 50%;
+}
+
+#val{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20%;
+    border: 10px solid #E63C2F;
+    border-radius: 50%;   
+}
+#theclass{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 2px;
+    height: 300px;
+    border: 10px solid #E63C2F;
+    border-radius: 10%;
 }
